@@ -1,0 +1,39 @@
+# ライセンス / License
+
+## 日本語
+
+このプロジェクトには複数のライセンスがあり、すべてを守る必要があります。
+
+- 元の VST2413 ファイルと `source/emu2413/` は、元リポジトリの `LICENSE` が指定する emu2413 の利用条件に従います。原文は `source/emu2413/readme.txt` に残してあり、`THIRD_PARTY_NOTICES.md` にも転載しています。原文の通知を削除・変更せず、改変した emu2413 ソースには改変版であることを明示してください。
+- この VST3 ポートで新規に追加した `vst3/`、CMake、スクリプト、説明文書は、下記 MIT License で提供します。ただし第三者の通知文・ロゴなど、各項目で別の条件が明記されるものを除きます。
+- VST3 SDK、VSTGUI、Expat、miniz、RapidJSON、msinttypes の条件は `THIRD_PARTY_NOTICES.md` を参照してください。配布 ZIP にはこの文書を必ず同梱してください。
+
+## English
+
+This project contains multiple licenses, all of which must be observed.
+
+- The original VST2413 files and `source/emu2413/` remain subject to the emu2413 terms designated by the original repository's `LICENSE`. The original text is retained in `source/emu2413/readme.txt` and reproduced in `THIRD_PARTY_NOTICES.md`. Do not remove or alter that notice, and plainly mark altered emu2413 source versions.
+- New VST3-port files in `vst3/`, CMake files, helper scripts, and explanatory documentation are made available under the MIT License below, except where an individual item carries different third-party terms, such as notices or logos.
+- See `THIRD_PARTY_NOTICES.md` for VST3 SDK, VSTGUI, Expat, miniz, RapidJSON, and msinttypes terms. Always include that file in a distribution ZIP.
+
+MIT License
+
+Copyright (c) 2026 VST2413 contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

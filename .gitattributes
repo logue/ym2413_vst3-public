@@ -1,0 +1,19 @@
+* text=auto
+
+*.c text
+*.h text
+*.cpp text
+
+*.txt text
+*.md text
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+*.sln text eol=crlf
+*.def text eol=crlf
+*.vcxproj text eol=crlf
+
+# Preserve formatting inherited from the original source and legal notice.
+source/RhythmDriver.* whitespace=-trailing-space
+source/SynthDriver.* whitespace=-trailing-space
+source/emu2413/** whitespace=-trailing-space
