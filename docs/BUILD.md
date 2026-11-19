@@ -10,8 +10,8 @@ VST3 SDK（MIT ライセンス）は [vcpkg](https://vcpkg.io/) のマニフェ�
 
 必要なもの:
 
-- Visual Studio 2022 または Build Tools の「Desktop development with C++」
-- CMake 3.25 以上
+- Visual Studio 2026 または Build Tools の「Desktop development with C++」
+- CMake 4.2 以上（Visual Studio 2026 の CMake ジェネレーターに必要）
 - vcpkg（`VCPKG_ROOT`）
 
 #### ツールのインストール（Chocolatey）
@@ -19,7 +19,7 @@ VST3 SDK（MIT ライセンス）は [vcpkg](https://vcpkg.io/) のマニフェ�
 管理者権限の PowerShell で実行します。
 
 ```powershell
-choco install -y visualstudio2022buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
+choco install -y visualstudio2026buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
 choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=System'
 choco install -y git
 ```
@@ -34,7 +34,7 @@ C:\vcpkg\bootstrap-vcpkg.bat -disableMetrics
 
 #### ビルド
 
-**Developer PowerShell for VS 2022** から:
+**Developer PowerShell for VS 2026** から:
 
 ```powershell
 .\scripts\build-windows.ps1
@@ -86,8 +86,8 @@ Building it yourself is recommended over using the prebuilt binaries. Tool insta
 
 Requirements:
 
-- Visual Studio 2022 or Build Tools with “Desktop development with C++”
-- CMake 3.25 or newer
+- Visual Studio 2026 or Build Tools with “Desktop development with C++”
+- CMake 4.2 or newer (required for the Visual Studio 2026 CMake generator)
 - vcpkg (`VCPKG_ROOT`)
 
 #### Installing the tools (Chocolatey)
@@ -95,7 +95,7 @@ Requirements:
 Run in an elevated PowerShell:
 
 ```powershell
-choco install -y visualstudio2022buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
+choco install -y visualstudio2026buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
 choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=System'
 choco install -y git
 ```
@@ -110,7 +110,7 @@ C:\vcpkg\bootstrap-vcpkg.bat -disableMetrics
 
 #### Building
 
-From **Developer PowerShell for VS 2022**:
+From **Developer PowerShell for VS 2026**:
 
 ```powershell
 .\scripts\build-windows.ps1
