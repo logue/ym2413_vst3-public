@@ -40,7 +40,7 @@ C:\vcpkg\bootstrap-vcpkg.bat -disableMetrics
 .\scripts\build-windows.ps1
 ```
 
-生成物は `build\VST3\Release\vst2413p.vst3`、`vst2413r.vst3`、`vst2413s.vst3` です。各 `.vst3` はフォルダー単位で扱ってください。SDK を含めない ZIP を作るには:
+生成物は `build\VST3\Release\VST2413P.vst3`、`VST2413R.vst3`、`VST2413S.vst3` です。各 `.vst3` はフォルダー単位で扱ってください。SDK を含めない ZIP を作るには:
 
 ```powershell
 .\scripts\package-release.ps1 -Version 1.0.0
@@ -69,6 +69,8 @@ Xcode 本体を使う場合は App Store からインストールし、`sudo xco
 bash scripts/build-macos.sh
 bash scripts/install-macos.sh
 ```
+
+生成物は `build/VST3/Release/VST2413P.vst3`、`VST2413R.vst3`、`VST2413S.vst3` です。
 
 DMG を作るには `VERSION=1.0.0 bash scripts/package-release-macos.sh` を実行します。
 
@@ -114,7 +116,7 @@ From **Developer PowerShell for VS 2022**:
 .\scripts\build-windows.ps1
 ```
 
-The generated bundles are `build\VST3\Release\vst2413p.vst3`, `vst2413r.vst3`, and `vst2413s.vst3`. Treat every `.vst3` as a complete directory. To create a ZIP that does not contain the SDK:
+The generated bundles are `build\VST3\Release\VST2413P.vst3`, `VST2413R.vst3`, and `VST2413S.vst3`. Treat every `.vst3` as a complete directory. To create a ZIP that does not contain the SDK:
 
 ```powershell
 .\scripts\package-release.ps1 -Version 1.0.0
@@ -143,6 +145,8 @@ To use full Xcode instead, install it from the App Store and run `sudo xcode-sel
 bash scripts/build-macos.sh
 bash scripts/install-macos.sh
 ```
+
+The generated bundles are `build/VST3/Release/VST2413P.vst3`, `VST2413R.vst3`, and `VST2413S.vst3`.
 
 To create a DMG, run `VERSION=1.0.0 bash scripts/package-release-macos.sh`.
 

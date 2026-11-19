@@ -7,7 +7,7 @@
 ### Windows（検証済み）
 
 1. `VST2413-*-windows-x86_64.zip` を展開します。
-2. `vst2413p.vst3`、`vst2413r.vst3`、`vst2413s.vst3` を、**フォルダーのまま**次のいずれかへコピーします。
+2. `VST2413P.vst3`、`VST2413R.vst3`、`VST2413S.vst3` を、**フォルダーのまま**次のいずれかへコピーします。
    - 全ユーザー: `C:\Program Files\Common Files\VST3\`
    - 現在のユーザーのみ: `%LOCALAPPDATA%\Programs\Common\VST3\`
 3. Cubase Pro 13 の **Studio > VST Plug-in Manager** を開き、再スキャンします。
@@ -44,7 +44,7 @@ DMG を開き、`.vst3` を同梱の `VST3` フォルダー（`/Library/Audio/Pl
 ### Windows (verified)
 
 1. Extract `VST2413-*-windows-x86_64.zip`.
-2. Copy `vst2413p.vst3`, `vst2413r.vst3`, and `vst2413s.vst3` as complete **folders** to one of these locations.
+2. Copy `VST2413P.vst3`, `VST2413R.vst3`, and `VST2413S.vst3` as complete **folders** to one of these locations.
    - All users: `C:\Program Files\Common Files\VST3\`
    - Current user: `%LOCALAPPDATA%\Programs\Common\VST3\`
 3. Open **Studio > VST Plug-in Manager** in Cubase Pro 13 and rescan.
